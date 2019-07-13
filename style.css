@@ -1,0 +1,45 @@
+body {
+  font-family: Roboto;
+}
+
+.userChoices {
+  padding: 5px;
+  border-radius: 30px;
+  height: 40%;
+  width: 28%;
+  margin: calc(2.5% - 5px);
+  display: inline-block;
+  background-color: #9C27B0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+#result {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 30px;
+  height: 40%;
+  width: 30%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#container {
+  display: table;
+  width: 100%;
+}
+
+.userChoices:hover {
+  background: #009688;
+  color: white;
+}
+
+#gif {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#gif > img {
+  width: 100%;
+}
